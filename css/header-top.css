@@ -103,16 +103,28 @@
         font-size: 25px !important;
         width: 30%;
     }
+    .header_nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
     .item_right {
-        width: 80%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     .search_form {
-        width: 90%;
+        width: 100%;
     }
-    .shopping_div, .bars_div {
+    .search_but {
         width: 10%;
     }
-    .bars_div {
+    .shopping_div {
+        width: 15%;
+        display: flex;
+    }
+    .bars {
         display: block !important;
     }
 }
