@@ -2,6 +2,7 @@
     margin: 5px auto;
     border-bottom: 1px solid #ebebeb;
 }
+
 .sub_menu_ref {
     color: black;
     font-size: 12px;
@@ -10,32 +11,39 @@
     font-family: 'SourceSansPro';
     font-weight: 400;
 }
+
 .sub_menu_ref span {
     font-weight: 700 !important;
 }
+
 .sub_menu_ref:hover {
     color: red;
     font-weight: 700;
 }
+
 .sub_menu_ref_i {
     font-family: 'SourceSansPro', 'FontAwesome';
     font-weight: normal;
 }
-.header_logo, .header_logo:hover{
+
+.header_logo, .header_logo:hover {
     font-size: 50px;
     font-weight: 500;
     color: black;
     font-family: 'Dancing Script';
 }
+
 .header_logo span {
     color: red;
 }
+
 .lang {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     overflow: hidden;
 }
+
 .sub_menu_lang, .sub_menu_lang:hover {
     color: black;
     font-size: 12px;
@@ -44,6 +52,7 @@
     font-family: 'SourceSansPro';
     font-weight: 400;
 }
+
 .nav li a {
     font-family: 'SourceSansPro';
     font-weight: 400;
@@ -51,12 +60,15 @@
     text-transform: uppercase;
     color: black;
 }
+
 .nav li a:hover {
     color: red;
 }
+
 .search_form {
     width: 90%;
 }
+
 .search {
     /* padding: 3px; */
     border: 1px solid #8f8a8a;
@@ -64,21 +76,25 @@
     outline: none;
     padding: 0.8px;
 }
+
 .search_in {
     width: 90%;
     border: none;
     outline: none;
     /* -webkit-appearance: none; */
 }
+
 .search_but {
     width: 10%;
     color: #8f8a8a;
     background: none;
     border: none;
 }
+
 .shopping_div {
     /* width: 10%; */
 }
+
 .shopping, .bars, .shopping:hover, .bars:hover {
     color: #8f8a8a;
 }
