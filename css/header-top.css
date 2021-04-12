@@ -83,6 +83,24 @@
     color: #8f8a8a;
 }
 
+@media(max-width:575px) {
+    .header_submenu, .nav {
+        display: none;
+    }
+    .header_logo {
+        font-size: 25px !important;
+    }
+    .item_right {
+        width: 80%;
+    }
+    .shopping_div, .bars_div {
+        width: 10%;
+    }
+    .bars_div {
+        display: block !important;
+    }
+}
+
 @media(max-width: 767px) {
     .header_logo {
         font-size: 30px;
