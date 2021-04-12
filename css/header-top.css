@@ -101,6 +101,7 @@
     }
     .header_logo {
         font-size: 25px !important;
+        width: 30%;
     }
     .item_right {
         width: 80%;
