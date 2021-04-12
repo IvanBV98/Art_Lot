@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/setup.css">
+    <link rel="stylesheet" href="css/header-top.css">
+    <link rel="stylesheet" href="css/header-bottom.css">
+</head>
+
+<body>
+    <header>
+        <div class="header_top container-fluid">
+            <div class="header_submenu col-12 row justify-content-end d-sm-none d-lg-flex">
+                <ul class="col-7 container row justify-content-between">
+                    <li class="col-2"><a href="" class="sub_menu_ref text-center"><span>Личный кабинет</span></a></li>
+                    <li class="col-2"><a href="" class="sub_menu_ref text-center">О нас</a></li>
+                    <li class="col-2"><a href="" class="sub_menu_ref text-center">Обратная связь</a></li>
+                    <li class="col-2"><a href="" class="sub_menu_ref text-center">Интересное</a></li>
+                    <ul class="col-3 row justify-content-around">
+                        <li class="lang col-1 d-flex justify-content-center"><a href=""><img
+                                    src="images/header/languages/rus.png" alt=""></a></li>
+                        <li class="lang col-1 d-flex justify-content-center"><a href=""><img
+                                    src="images/header/languages/eng.png" alt=""></a></li>
+                        <li class="lang col-1 d-flex justify-content-center"><a href=""><img
+                                    src="images/header/languages/uzb.png" alt=""></a></li>
+                    </ul>
+                </ul>
+            </div>
+            <div class="header_nav col-12 row justify-content-between">
+                <div class="logo col-2 col-sm-1 col-lg-2 row justify-content-center">
+                    <a href="" class="header_logo text-center"><span>Art</span>Lot</a>
+                </div>
+                <ul class="nav col-5 row justify-content-around align-items-center d-sm-none d-lg-flex">
+                    <li class="col-4 text-center"><a href="">Аукционы</a></li>
+                    <li class="col-4 text-center"><a href="">Купить сейчас</a></li>
+                    <li class="col-4 text-center"><a href="">Продать</a></li>
+                </ul>
+                <div class="item_right col-5 col-sm-10 col-lg-5 container row align-items-center justify-content-between">
+                    <form action="" class="search_form row col-8">
+                        <div class="search row align-items-center">
+                            <input type="search" class="search_in d-block">
+                            <button type="submit_pole" class="search_but"><i class="fas fa-search"></i></button>
+                            <!-- <input type="submit" value=""> -->
+                        </div>
+                    </form>
+                    <div class="shopping_div col-2 col-sm-1 row justify-content-center">
+                        <a href="" class="shopping"><i class="far fa-shopping-bag"></i></a>
+                    </div>
+                    <div class="bars_div col-2 col-sm-1 d-none d-sm-block d-lg-none justify-content-center">
+                        <a href="" class="bars"><i class="fas fa-bars"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header_bottom">
+            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="5000">
+                        <img src="images/header/slider/first_slide.jpg" class="slider-img d-block w-100" alt="first_slide">
+                        <div class="slider_info col-3 col-sm-4 col-lg-3">
+                            <h4 class="info_header">LOREM</h4>
+                            <p class="info_date">1 Мая 2021 года</p>
+                            <p class="info_about">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <a href="" class="info_ref">Подробнее</a>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="5000">
+                        <img src="images/header/slider/second_slide.jpg" class="slider-img d-block w-100" alt="second_slide">
+                        <div class="slider_info col-3 col-sm-4 col-lg-3">
+                            <h4 class="info_header">LOREM</h4>
+                            <p class="info_date">1 Мая 2021 года</p>
+                            <p class="info_about">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <a href="" class="info_ref">Подробнее</a>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="5000">
+                        <img src="images/header/slider/third_slide.jpg" class="slider-img d-block w-100" alt="third_slide">
+                        <div class="slider_info col-3 col-sm-4 col-lg-3">
+                            <h4 class="info_header">LOREM</h4>
+                            <p class="info_date">1 Мая 2021 года</p>
+                            <p class="info_about">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <a href="" class="info_ref">Подробнее</a>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <!-- <span class="visually-hidden">Previous</span> -->
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <!-- <span class="visually-hidden">Next</span> -->
+                </button>
+            </div>
+        </div>
+    </header>
+</body>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/popper.min.js"></script>
+
+</html>

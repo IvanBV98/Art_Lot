@@ -1,0 +1,122 @@
+@font-face {
+    font-family: 'SourceSansPro';
+    font-weight: 900;
+    font-style: normal;
+    src: url(../fonts/SourceSansPro/SourceSansPro-Black.ttf);
+}
+
+@font-face {
+    font-family: 'SourceSansPro';
+    font-weight: 900;
+    font-style: italic;
+    src: url(../fonts/SourceSansPro/SourceSansPro-BlackItalic.ttf);
+}
+
+@font-face {
+    font-family: 'SourceSansPro';
+    font-weight: 700;
+    font-style: normal;
+    src: url(../fonts/SourceSansPro/SourceSansPro-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'SourceSansPro';
+    font-weight: 700;
+    font-style: italic;
+    src: url(../fonts/SourceSansPro/SourceSansPro-BoldItalic.ttf);
+}
+
+@font-face {
+    font-family: 'SourceSansPro';
+    font-weight: 200;
+    font-style: normal;
+    src: url(../fonts/SourceSansPro/SourceSansPro-ExtraLight.ttf);
+}
+
+@font-face {
+    font-family: 'SourceSansPro';
+    font-weight: 200;
+    font-style: italic;
+    src: url(../fonts/SourceSansPro/SourceSansPro-ExtraLightItalic.ttf);
+}
+
+@font-face {
+    font-family: 'SourceSansPro';
+    font-weight: 300;
+    font-style: normal;
+    src: url(../fonts/SourceSansPro/SourceSansPro-Light.ttf);
+}
+
+@font-face {
+    font-family: 'SourceSansPro';
+    font-weight: 300;
+    font-style: italic;
+    src: url(../fonts/SourceSansPro/SourceSansPro-LightItalic.ttf);
+}
+
+@font-face {
+    font-family: 'SourceSansPro';
+    font-weight: 400;
+    font-style: normal;
+    src: url(../fonts/SourceSansPro/SourceSansPro-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'SourceSansPro';
+    font-weight: 400;
+    font-style: italic;
+    src: url(../fonts/SourceSansPro/SourceSansPro-Italic.ttf);
+}
+
+@font-face {
+    font-family: 'SourceSansPro';
+    font-weight: 600;
+    font-style: normal;
+    src: url(../fonts/SourceSansPro/SourceSansPro-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: 'SourceSansPro';
+    font-weight: 600;
+    font-style: italic;
+    src: url(../fonts/SourceSansPro/SourceSansPro-SemiBoldItalic.ttf);
+}
+
+@font-face {
+    font-family: 'Dancing Script';
+    src: url(../fonts/DancingScript/DancingScript-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'PlayfairDisplay';
+    font-weight: 700;
+    font-style: normal;
+    src: url(../fonts/PlayfairDisplay/PlayfairDisplay-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'PlayfairDisplay';
+    font-weight: 900;
+    font-style: normal;
+    src: url(../fonts/PlayfairDisplay/PlayfairDisplay-Black.ttf);
+}
+
+@font-face {
+    font-family: 'PlayfairDisplay';
+    font-weight: 800;
+    font-style: normal;
+    src: url(../fonts/PlayfairDisplay/PlayfairDisplay-Bold.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
