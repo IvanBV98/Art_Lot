@@ -91,10 +91,6 @@
     border: none;
 }
 
-.shopping_div {
-    /* width: 10%; */
-}
-
 .shopping, .bars, .shopping:hover, .bars:hover {
     color: #8f8a8a;
 }
